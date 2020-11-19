@@ -1,0 +1,28 @@
+ npm i  bcryptjs connect-flash ejs express express-ejs-layouts express-session mongoose passport passport-local
+
+ npm i -D nodemon
+
+///next/////
+ then change in pacage json
+ {
+  "name": "rj_node_passport_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev" : "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+  //next//
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/journal/bootstrap.min.css"
+    />
